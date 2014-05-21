@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3401188192B9DE300A761DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3401187192B9DE300A761DD /* Foundation.framework */; };
+		A340118A192B9DE300A761DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3401189192B9DE300A761DD /* CoreGraphics.framework */; };
+		A340118C192B9DE300A761DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A340118B192B9DE300A761DD /* UIKit.framework */; };
+		A3401192192B9DE300A761DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3401190192B9DE300A761DD /* InfoPlist.strings */; };
+		A3401194192B9DE300A761DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3401193192B9DE300A761DD /* main.m */; };
+		A3401198192B9DE300A761DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3401197192B9DE300A761DD /* AppDelegate.m */; };
+		A340119E192B9DE300A761DD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A340119D192B9DE300A761DD /* MasterViewController.m */; };
+		A34011A1192B9DE300A761DD /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34011A0192B9DE300A761DD /* BasicAnimationViewController.m */; };
+		A34011A3192B9DE300A761DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34011A2192B9DE300A761DD /* Images.xcassets */; };
+		A34011C7192C76C200A761DD /* SpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34011C6192C76C200A761DD /* SpringAnimationViewController.m */; };
+		A34011CA192C7D7D00A761DD /* KKScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A34011C9192C7D7D00A761DD /* KKScrollView.m */; };
+		A34011CD192C7DB100A761DD /* DecayAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34011CC192C7DB100A761DD /* DecayAnimationViewController.m */; };
+		A34011D0192C834100A761DD /* InteractiveAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34011CF192C834100A761DD /* InteractiveAnimationViewController.m */; };
+		D0D190DCC943499ABB2AE324 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C2184A66C8430BBF072A15 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87C2184A66C8430BBF072A15 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B39AE5B7844C17B0299716 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A3401184192B9DE300A761DD /* facebook-pop-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "facebook-pop-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3401187192B9DE300A761DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3401189192B9DE300A761DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A340118B192B9DE300A761DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A340118F192B9DE300A761DD /* facebook-pop-sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "facebook-pop-sample-Info.plist"; sourceTree = "<group>"; };
+		A3401191192B9DE300A761DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3401193192B9DE300A761DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3401195192B9DE300A761DD /* facebook-pop-sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "facebook-pop-sample-Prefix.pch"; sourceTree = "<group>"; };
+		A3401196192B9DE300A761DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3401197192B9DE300A761DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A340119C192B9DE300A761DD /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A340119D192B9DE300A761DD /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A340119F192B9DE300A761DD /* BasicAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicAnimationViewController.h; sourceTree = "<group>"; };
+		A34011A0192B9DE300A761DD /* BasicAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
+		A34011A2192B9DE300A761DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A34011A9192B9DE300A761DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A34011C5192C76C200A761DD /* SpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimationViewController.h; sourceTree = "<group>"; };
+		A34011C6192C76C200A761DD /* SpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationViewController.m; sourceTree = "<group>"; };
+		A34011C8192C7D7D00A761DD /* KKScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKScrollView.h; sourceTree = "<group>"; };
+		A34011C9192C7D7D00A761DD /* KKScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKScrollView.m; sourceTree = "<group>"; };
+		A34011CB192C7DB100A761DD /* DecayAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayAnimationViewController.h; sourceTree = "<group>"; };
+		A34011CC192C7DB100A761DD /* DecayAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayAnimationViewController.m; sourceTree = "<group>"; };
+		A34011CE192C834100A761DD /* InteractiveAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveAnimationViewController.h; sourceTree = "<group>"; };
+		A34011CF192C834100A761DD /* InteractiveAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveAnimationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3401181192B9DE300A761DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A340118A192B9DE300A761DD /* CoreGraphics.framework in Frameworks */,
+				A340118C192B9DE300A761DD /* UIKit.framework in Frameworks */,
+				A3401188192B9DE300A761DD /* Foundation.framework in Frameworks */,
+				D0D190DCC943499ABB2AE324 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A340117B192B9DE200A761DD = {
+			isa = PBXGroup;
+			children = (
+				A340118D192B9DE300A761DD /* facebook-pop-sample */,
+				A3401186192B9DE300A761DD /* Frameworks */,
+				A3401185192B9DE300A761DD /* Products */,
+				A2B39AE5B7844C17B0299716 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A3401185192B9DE300A761DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3401184192B9DE300A761DD /* facebook-pop-sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3401186192B9DE300A761DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3401187192B9DE300A761DD /* Foundation.framework */,
+				A3401189192B9DE300A761DD /* CoreGraphics.framework */,
+				A340118B192B9DE300A761DD /* UIKit.framework */,
+				A34011A9192B9DE300A761DD /* XCTest.framework */,
+				87C2184A66C8430BBF072A15 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A340118D192B9DE300A761DD /* facebook-pop-sample */ = {
+			isa = PBXGroup;
+			children = (
+				A34011C8192C7D7D00A761DD /* KKScrollView.h */,
+				A34011C9192C7D7D00A761DD /* KKScrollView.m */,
+				A3401196192B9DE300A761DD /* AppDelegate.h */,
+				A3401197192B9DE300A761DD /* AppDelegate.m */,
+				A340119C192B9DE300A761DD /* MasterViewController.h */,
+				A340119D192B9DE300A761DD /* MasterViewController.m */,
+				A340119F192B9DE300A761DD /* BasicAnimationViewController.h */,
+				A34011A0192B9DE300A761DD /* BasicAnimationViewController.m */,
+				A34011C5192C76C200A761DD /* SpringAnimationViewController.h */,
+				A34011C6192C76C200A761DD /* SpringAnimationViewController.m */,
+				A34011CB192C7DB100A761DD /* DecayAnimationViewController.h */,
+				A34011CC192C7DB100A761DD /* DecayAnimationViewController.m */,
+				A34011CE192C834100A761DD /* InteractiveAnimationViewController.h */,
+				A34011CF192C834100A761DD /* InteractiveAnimationViewController.m */,
+				A34011A2192B9DE300A761DD /* Images.xcassets */,
+				A340118E192B9DE300A761DD /* Supporting Files */,
+			);
+			path = "facebook-pop-sample";
+			sourceTree = "<group>";
+		};
+		A340118E192B9DE300A761DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A340118F192B9DE300A761DD /* facebook-pop-sample-Info.plist */,
+				A3401190192B9DE300A761DD /* InfoPlist.strings */,
+				A3401193192B9DE300A761DD /* main.m */,
+				A3401195192B9DE300A761DD /* facebook-pop-sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3401183192B9DE300A761DD /* facebook-pop-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34011B9192B9DE300A761DD /* Build configuration list for PBXNativeTarget "facebook-pop-sample" */;
+			buildPhases = (
+				864BFBE75FA941BF8633F72D /* Check Pods Manifest.lock */,
+				A3401180192B9DE300A761DD /* Sources */,
+				A3401181192B9DE300A761DD /* Frameworks */,
+				A3401182192B9DE300A761DD /* Resources */,
+				D34C3996E7C64BE896C1C995 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "facebook-pop-sample";
+			productName = "facebook-pop-sample";
+			productReference = A3401184192B9DE300A761DD /* facebook-pop-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A340117C192B9DE200A761DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = geeklu;
+			};
+			buildConfigurationList = A340117F192B9DE300A761DD /* Build configuration list for PBXProject "facebook-pop-sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A340117B192B9DE200A761DD;
+			productRefGroup = A3401185192B9DE300A761DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3401183192B9DE300A761DD /* facebook-pop-sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3401182192B9DE300A761DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34011A3192B9DE300A761DD /* Images.xcassets in Resources */,
+				A3401192192B9DE300A761DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		864BFBE75FA941BF8633F72D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D34C3996E7C64BE896C1C995 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3401180192B9DE300A761DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34011CD192C7DB100A761DD /* DecayAnimationViewController.m in Sources */,
+				A3401198192B9DE300A761DD /* AppDelegate.m in Sources */,
+				A340119E192B9DE300A761DD /* MasterViewController.m in Sources */,
+				A34011CA192C7D7D00A761DD /* KKScrollView.m in Sources */,
+				A34011D0192C834100A761DD /* InteractiveAnimationViewController.m in Sources */,
+				A34011C7192C76C200A761DD /* SpringAnimationViewController.m in Sources */,
+				A3401194192B9DE300A761DD /* main.m in Sources */,
+				A34011A1192B9DE300A761DD /* BasicAnimationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3401190192B9DE300A761DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3401191192B9DE300A761DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A34011B7192B9DE300A761DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A34011B8192B9DE300A761DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A34011BA192B9DE300A761DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B39AE5B7844C17B0299716 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "facebook-pop-sample/facebook-pop-sample-Prefix.pch";
+				INFOPLIST_FILE = "facebook-pop-sample/facebook-pop-sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A34011BB192B9DE300A761DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B39AE5B7844C17B0299716 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "facebook-pop-sample/facebook-pop-sample-Prefix.pch";
+				INFOPLIST_FILE = "facebook-pop-sample/facebook-pop-sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A340117F192B9DE300A761DD /* Build configuration list for PBXProject "facebook-pop-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34011B7192B9DE300A761DD /* Debug */,
+				A34011B8192B9DE300A761DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34011B9192B9DE300A761DD /* Build configuration list for PBXNativeTarget "facebook-pop-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34011BA192B9DE300A761DD /* Debug */,
+				A34011BB192B9DE300A761DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A340117C192B9DE200A761DD /* Project object */;
+}
