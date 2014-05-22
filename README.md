@@ -1,4 +1,6 @@
-此项目主要是基于Facebook Pop实现的一些动画的案例。
+此项目主要是基于Facebook Pop实现的一些动画的案例。运行之前请先安装Pods
+
+    pod install
 
 #### Basic Animation
 ![动画](http://ww2.sinaimg.cn/mw1024/65cc0af7gw1egmzocxrx7g206g0bq3zj.gif)
