@@ -9,8 +9,11 @@
 ![动画](http://ww1.sinaimg.cn/mw1024/65cc0af7gw1egmzoc3dkxg206g0bqdii.gif)
 
 #### Decay Animation  
-这里滑动的并不是一个UIScrollView 而是自己实现的一个基于UIView的View
+参考自[https://github.com/rounak/CustomScrollView/tree/custom-scroll-with-pop](https://github.com/rounak/CustomScrollView/tree/custom-scroll-with-pop)
+这里滑动的并不是一个UIScrollView 而是一个完全基于UIView的实现
 ![动画](http://ww3.sinaimg.cn/mw1024/65cc0af7gw1egmzoapnqwg206i0bm7nn.gif)
 
 #### Interactive Animation
+参考自 [http://codeplease.io/playing-with-pop-ii/](http://codeplease.io/playing-with-pop-ii/)
+
 ![动画](http://ww3.sinaimg.cn/mw1024/65cc0af7gw1egmzobh53fg206i0bmq6b.gif)
