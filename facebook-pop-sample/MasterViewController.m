@@ -85,7 +85,8 @@
         InteractiveAnimationViewController *detail = [[InteractiveAnimationViewController alloc] init];
         [self.navigationController pushViewController:detail animated:YES];
     }
-
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
 }
 
 /*

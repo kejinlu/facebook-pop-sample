@@ -29,12 +29,12 @@
     [super viewDidLoad];
 
     KKScrollView *scrollView = [[KKScrollView alloc] initWithFrame:self.view.bounds];
-    scrollView.backgroundColor = [UIColor whiteColor];
+    scrollView.backgroundColor = [UIColor grayColor];
     
     scrollView.contentSize = CGSizeMake(self.view.bounds.size.width, 1500);
     
     UIView *contentView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, scrollView.contentSize.width, scrollView.contentSize.height)];
-    contentView.backgroundColor = [UIColor colorWithWhite:0.9 alpha:1];
+    contentView.backgroundColor = [UIColor whiteColor];
     for (int i = 0; i< 10; i++) {
         UILabel *testLabel = [[UILabel alloc] initWithFrame:CGRectMake(60, 150 * i, 200, 130)];
         testLabel.backgroundColor = [UIColor orangeColor];
