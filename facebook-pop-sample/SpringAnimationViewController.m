@@ -33,7 +33,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.testView = [[UIView alloc] initWithFrame:CGRectMake(0, 100, 50, 50)];
+    self.testView = [[UIView alloc] initWithFrame:CGRectMake(20, 100, 100, 100)];
     self.testView.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.testView];
     

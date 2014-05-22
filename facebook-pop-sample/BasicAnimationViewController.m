@@ -25,7 +25,7 @@
     CGFloat centerY = arc4random() % height;
 
     anim.toValue = [NSValue valueWithCGPoint:CGPointMake(centerX, centerY)];
-    anim.duration = 2;
+    anim.duration = 0.5;
     [self.testView pop_addAnimation:anim forKey:@"center"];
 }
 
@@ -35,7 +35,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.testView = [[UIView alloc] initWithFrame:CGRectMake(0, 100, 50, 50)];
+    self.testView = [[UIView alloc] initWithFrame:CGRectMake(20, 100, 100, 100)];
     self.testView.backgroundColor = [UIColor redColor];
     [self.view addSubview:self.testView];
     
